@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>My app</title>
+
+</head>
+<body>
+    <header>
+        <nav class="navigation" id="navigation">
+            <div class="logo">
+                <img src="/images/asian-development-foundation-college-removebg-preview.png" alt="logo"/>
+            </div>
+            <h1>
+                Asian Development Foundation College
+            </h1>
+        </nav>
+       
+    </header>
+    <div class="banner">
+        <div class="back">
+            <div class="bannerpic"></div>
+        </div>
+        
+        <h1>Asian Development Foundation College</h1>
+        <p>
+            Today, I am proud of ADFC. 
+            Tommorow,  ADFC will be proud of me.
+        </p>
+   
+    </div>
+    <section>
+    
+        <div>
+        <h1>About</h1>
+        <div class="section-content">
+            <div class="section-text">
+               
+                <p>
+                    Asian Development Foundation College (ADFC) is a private educational institution in Tacloban City. It was founded in 1984 as a pre-elementary school, which eventually developed into a higher institution of learning. When it opened its high school department, ADFC integrated complete computer subjects in the curriculum, making it the first business high school in the region. Through a holistic education promoting academic excellence, research, and community service, ADFC commits to developing its students into competent and responsible professionals.
+                </p>
+                <br>
+                <p>
+                    Asian Development Foundation College and its programs are duly recognized by the Commission on Higher Education (CHED), the Department of Education (DepEd), and the Technical Education and Skills Development Authority (TESDA). The institution is also a member of the Philippine Association of Colleges and Universities (PACU). 
+                </p>
+            </div>
+            <div class="section-img">
+                <img src="/images/received_861974341296683.jpeg" alt="students"/>
+            </div>
+        </div>
+    </div>
+    </section>
+   
+   
+    <section>
+        <div >
+        <h1>Courses</h1>
+        <div class="section-content">
+            <div class="section-text">
+                <p>
+                    ADFC currently provides programs from the preschool level to the graduate level. The institution has the Academic and the Technical-Vocational-Livelihood (TVL) tracks for Senior High School (SHS) students. For college students, there is a variety of bachelor's, associate, and diploma courses in Engineering, Criminology, Teacher Education, Social Science, Mass Communication, Hotel and Tourism Mangement, Business Administration, Allied Health, and Information Technology. ADFC also offers a Bachelors of Law program. The Graduate School department, on the other hand, has programs in Teacher Education, Business Administration, Humanities, and Information Technology.
+                </p>
+                <br>
+                <p>
+                    Aside from these said programs, the college also offers various technical-vocational courses classified under: Tourism/ Hotel and Restaurant; Construction; Electronics; Garments; Information and Communication Technology; Health, Social, and Community Development Services; Metal and Engineering; and, Processed Food and Beverages. These are for students who are interested in training for particular skills and earning their National Certificate (NC).
+                </p>
+            </div>
+            <div class="section-img">
+                <img src="/images/57289404_2298079427098632_2825530242393702400_n.jpg" alt="career"/>
+            </div>
+
+        </div>
+    </div>
+    </section>
+</body>
+
+
+<script>
+    var nav = document.getElementById("navigation");
+    window.onscroll = ()=>{
+        "use strict"
+        if(document.body.scrollTop >=200 || document.documentElement.scrollTop >=200){
+            nav.classList.add("navigation");
+            nav.classList.remove("trans");
+        }else{
+            nav.classList.add("trans");
+            nav.classList.remove("navigation");
+        }
+    }
+
+</script>
+</html>
